@@ -33,6 +33,11 @@ Accessing the Dashboard
   Setting Up Alerts
 
 -  Explore the settings page to configure alerts based on specific environmental conditions.
+### Contributors
+- Amerinder
+- Kumari Kirti
+- Mansi Kumari
+- Ritik Kumar
 
 
 
