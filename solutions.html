@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Pollution Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/newlogo-removebg-preview.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-window-close close-icon" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="data.html">AQI DATA</a></li>
+                <li><a href="waterdata.html">WQI DATA</a></li>
+                <li><a href="solutions.html">SOLUTIONS</a></li>
+                <li><a href="awareness.html">HEALTH AWARENESS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars menu-icon" onclick="showMenu()"></i>
+    </nav>
+    <h1>What to Do?</h1>
+</section>
+<!-- data -->
+
+<section class="solution">
+    <h1>Solutions to Air Pollution</h1>
+    <p>Addressing air pollution through engineering solutions involves implementing emission control technologies, 
+    promoting electric vehicles and sustainable transportation, transitioning to renewable energy sources, and adopting
+    green building practices. Smart urban planning and effective waste management are also crucial. A multi-pronged 
+    approach, combining these engineering solutions with supportive policies and public engagement, is vital in reducing 
+    air pollution and safeguarding air quality for future generations.<br><br><strong>Here are some solutions to help reduce air
+    pollution:</strong></p>
+    <br>
+    <div class="row">
+        <div class="solution-container">
+            <div class="solution-col">
+                <img src="images/sol1.png" >
+                <div class="layer">
+                    <h3>Go Green</h3>
+                </div>
+            </div>
+            <div class="solution-col">
+                <img src="images/sol2.png" >
+                <div class="layer">
+                    <h3>Use alternate sources of Energy</h3>
+                </div>
+            </div>
+            <div class="solution-col">
+                <img src="images/sol3.png">
+                <div class="layer">
+                    <h3>Using public transport</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</section>
+<hr>
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>"Welcome to our website dedicated to addressing the pressing issue of air pollution.<br>
+       We are committed to providing valuable insights, solutions, and resources to help<br> 
+       combat this environmental challenge and create a cleaner, healthier world for all."</p>
+       <div class="icons">
+        <a href="https://www.facebook.com/yourpage" target="_blank">
+            <i class="fa fa-facebook-square"></i>
+          </a>
+          <a href="https://twitter.com/yourpage" target="_blank">
+            <i class="fa fa-twitter-square"></i>
+          </a>
+          <a href="https://www.instagram.com/yourpage" target="_blank">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+            <i class="fa fa-linkedin-square"></i>
+          </a>
+       </div>
+       <p>Made with <i class="fa fa-heart-o"></i> by TEAM TECHNO</p>
+
+</section>
+
+
+
+
+
+
+
+<!---------JavaScript for Toggle Menu--------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
+

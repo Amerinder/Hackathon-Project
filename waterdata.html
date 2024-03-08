@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Pollution Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/newlogo-removebg-preview.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-window-close close-icon" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="data.html">AQI DATA</a></li>
+                <li><a href="solutions.html">SOLUTIONS</a></li>
+                <li><a href="awareness.html">HEALTH AWARENESS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars menu-icon" onclick="showMenu()"></i>
+    </nav>
+    <h1>Water Quality Index (WQI)</h1>
+</section>
+<!-- data -->
+<section class="wqi-section">
+    <h2>Water Quality Index (WQI) - November 2023</h2>
+    <table>
+        <tr>
+            <th>REGIONS</th>
+            <th>Status</th>
+            <th>WQI</th>
+            <th>pH Level</th>
+            <th>Conductivity</th>
+        </tr>
+        <tr>
+            <td>River A</td>
+            <td>GOOD</td>
+            <td>72</td>
+            <td>7.2</td>
+            <td>300 μS/cm</td>
+        </tr>
+        <tr>
+            <td>Lake B</td>
+            <td>MODERATE</td>
+            <td>55</td>
+            <td>6.8</td>
+            <td>400 μS/cm</td>
+        </tr>
+        <tr>
+            <td>Pond C</td>
+            <td>POOR</td>
+            <td>40</td>
+            <td>6.0</td>
+            <td>500 μS/cm</td>
+        </tr>
+        <tr>
+            <td>River A</td>
+            <td>GOOD</td>
+            <td>72</td>
+            <td>7.2</td>
+            <td>300 μS/cm</td>
+        </tr>
+        <tr>
+            <td>Lake B</td>
+            <td>MODERATE</td>
+            <td>55</td>
+            <td>6.8</td>
+            <td>400 μS/cm</td>
+        </tr>
+        <tr>
+            <td>Pond C</td>
+            <td>POOR</td>
+            <td>40</td>
+            <td>6.0</td>
+            <td>500 μS/cm</td>
+        </tr>
+        <tr>
+            <td>Stream D</td>
+            <td>GOOD</td>
+            <td>68</td>
+            <td>7.5</td>
+            <td>350 μS/cm</td>
+        </tr>
+        <tr>
+            <td>Reservoir E</td>
+            <td>EXCELLENT</td>
+            <td>85</td>
+            <td>8.0</td>
+            <td>250 μS/cm</td>
+        </tr>
+      
+    </table>
+</section>
+
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>"Welcome to our website dedicated to addressing the pressing issue of air pollution.<br>
+       We are committed to providing valuable insights, solutions, and resources to help<br> 
+       combat this environmental challenge and create a cleaner, healthier world for all."</p>
+       <div class="icons">
+        <a href="https://www.facebook.com/yourpage" target="_blank">
+            <i class="fa fa-facebook-square"></i>
+          </a>
+          <a href="https://twitter.com/yourpage" target="_blank">
+            <i class="fa fa-twitter-square"></i>
+          </a>
+          <a href="https://www.instagram.com/yourpage" target="_blank">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+            <i class="fa fa-linkedin-square"></i>
+          </a>
+       </div>
+       <p>Made with <i class="fa fa-heart-o"></i> by TEAM TECHNO</p>
+
+</section>
+
+
+
+
+
+
+
+<!---------JavaScript for Toggle Menu--------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Pollution Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/newlogo-removebg-preview.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-window-close close-icon" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                
+                <li><a href="waterdata.html">WQI DATA</a></li>
+                <li><a href="solutions.html">SOLUTIONS</a></li>
+                <li><a href="awareness.html">HEALTH AWARENESS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars menu-icon" onclick="showMenu()"></i>
+    </nav>
+    <h1>Air Pollution </h1>
+</section>
+<!-- data -->
+<section class="aqi-section">
+    <h2>India's all State Air Pollution Level(November 2023)</h2>
+    <table>
+        <tr>
+            <th>STATES</th>
+            <th>Status</th>
+            <th>AQI-US</th>
+            <th>Avg Temp</th>
+            <th>Humid</th>
+        </tr>
+        <tr>
+            <td>Andhra Pradesh</td>
+            <td>POOR</td>
+            <td>103</td>
+            <td>30</td>
+            <td>63</td>
+        </tr>
+        <tr>
+            <td>Arunachal Pradesh</td>
+            <td>GOOD</td>
+            <td>48</td>
+            <td>28</td>
+            <td>62</td>
+        </tr>
+        <tr>
+            <td>Assam</td>
+            <td>POOR</td>
+            <td>112</td>
+            <td>28</td>
+            <td>59</td>
+        </tr>
+        <tr>
+            <td>Bihar</td>
+            <td>POOR</td>
+            <td>173</td>
+            <td>30</td>
+            <td>36</td>
+        </tr>
+        <tr>
+            <td>Chandigarh</td>
+            <td>POOR</td>
+            <td>157</td>
+            <td>29</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Chhattisgarh</td>
+            <td>MODERATE</td>
+            <td>54</td>
+            <td>30</td>
+            <td>27</td>
+        </tr>
+        <tr>
+            <td>Dadra And Nagar Haveli</td>
+            <td>POOR</td>
+            <td>112</td>
+            <td>33</td>
+            <td>39</td>
+        </tr>
+        <tr>
+            <td>Daman And Diu</td>
+            <td>POOR</td>
+            <td>129</td>
+            <td>34</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>Delhi</td>
+            <td>UNHEALTHY</td>
+            <td>300</td>
+            <td>30</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>Goa</td>
+            <td>GOOD</td>
+            <td>47</td>
+            <td>30</td>
+            <td>66</td>
+        </tr>
+        <tr>
+            <td>Gujarat</td>
+            <td>POOR</td>
+            <td>129</td>
+            <td>34</td>
+            <td>27</td>
+        </tr>
+        <tr>
+            <td>Haryana</td>
+            <td>UNHEALTHY</td>
+            <td>255</td>
+            <td>30</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Himachal Pradesh</td>
+            <td>MODERATE</td>
+            <td>80</td>
+            <td>22</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>Jammu And Kashmir</td>
+            <td>GOOD</td>
+            <td>39</td>
+            <td>18</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Jharkhand</td>
+            <td>MODERATE</td>
+            <td>78</td>
+            <td>27</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>Karnataka</td>
+            <td>MODERATE</td>
+            <td>53</td>
+            <td>29</td>
+            <td>65</td>
+        </tr>
+        <tr>
+            <td>Kerala</td>
+            <td>MODERATE</td>
+            <td>82</td>
+            <td>31</td>
+            <td>71</td>
+        </tr>
+        <tr>
+            <td>Madhya Pradesh</td>
+            <td>POOR</td>
+            <td>110</td>
+            <td>31</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Maharashtra</td>
+            <td>MODERATE</td>
+            <td>93</td>
+            <td>31</td>
+            <td>55</td>
+        </tr>
+        <tr>
+            <td>Manipur</td>
+            <td>GOOD</td>
+            <td>31</td>
+            <td>25</td>
+            <td>47</td>
+        </tr>
+        <tr>
+            <td>Meghalaya</td>
+            <td>MODERATE</td>
+            <td>82</td>
+            <td>17</td>
+            <td>74</td>
+        </tr>
+        <tr>
+            <td>Mizoram</td>
+            <td>GOOD</td>
+            <td>20</td>
+            <td>24</td>
+            <td>49</td>
+        </tr>
+        <tr>
+            <td>Nagaland</td>
+            <td>MODERATE</td>
+            <td>70</td>
+            <td>24</td>
+            <td>76</td>
+        </tr>
+        <tr>
+            <td>Odisha</td>
+            <td>POOR</td>
+            <td>111</td>
+            <td>30</td>
+            <td>39</td>
+        </tr>
+        <tr>
+            <td>Puducherry</td>
+            <td>MODERATE</td>
+            <td>68</td>
+            <td>28</td>
+            <td>77</td>
+        </tr>
+        <tr>
+            <td>Punjab</td>
+            <td>POOR</td>
+            <td>149</td>
+            <td>30</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Rajasthan</td>
+            <td>POOR</td>
+            <td>147</td>
+            <td>32</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Sikkim</td>
+            <td>MODERATE</td>
+            <td>78</td>
+            <td>11</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Tamil Nadu</td>
+            <td>MODERATE</td>
+            <td>67</td>
+            <td>30</td>
+            <td>74</td>
+        </tr>
+        <tr>
+            <td>Telangana</td>
+            <td>MODERATE</td>
+            <td>86</td>
+            <td>29</td>
+            <td>57</td>
+        </tr>
+        <tr>
+            <td>Tripura</td>
+            <td>POOR</td>
+            <td>158</td>
+            <td>29</td>
+            <td>57</td>
+        </tr>
+        <tr>
+            <td>Uttar Pradesh</td>
+            <td>POOR</td>
+            <td>164</td>
+            <td>30</td>
+            <td>27</td>
+        </tr>
+        <tr>
+            <td>Uttarakhand</td>
+            <td>MODERATE</td>
+            <td>74</td>
+            <td>24</td>
+            <td>33</td>
+        </tr>
+        <tr>
+            <td>West Bengal</td>
+            <td>POOR</td>
+            <td>154</td>
+            <td>29</td>
+            <td>44</td>
+        </tr>
+    </table>
+</section>
+<section class="policies">
+    <h1>Government Policies</h1>
+    <p>Acts related to Air as a natural resource.</p>
+    <br>
+    <br>
+
+    <div class="row">
+        <div class="policies-col"></div>
+        <div class="act-box">
+            <p><b>1948</b>: The Factories Act and Amendment in 1987 was the first to express concern for the working environment of the workers. The amendment of 1987 has sharpened its environmental focus and expanded its application to hazardous processes.</p>
+        </div>
+        <div class="act-box">
+            <p><b>1981</b>: The Air (Prevention and Control of Pollution) Act provides for the control and abatement of air pollution. It entrusts the power of enforcing this act to the CPCB .</p>
+        </div>
+    </div>
+    <br>
+</section>
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>"Welcome to our website dedicated to addressing the pressing issue of air pollution.<br>
+       We are committed to providing valuable insights, solutions, and resources to help<br> 
+       combat this environmental challenge and create a cleaner, healthier world for all."</p>
+       <div class="icons">
+        <a href="https://www.facebook.com/yourpage" target="_blank">
+            <i class="fa fa-facebook-square"></i>
+          </a>
+          <a href="https://twitter.com/yourpage" target="_blank">
+            <i class="fa fa-twitter-square"></i>
+          </a>
+          <a href="https://www.instagram.com/yourpage" target="_blank">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+            <i class="fa fa-linkedin-square"></i>
+          </a>
+       </div>
+       <p>Made with <i class="fa fa-heart-o"></i> by TEAM TECHNO</p>
+
+</section>
+
+
+
+
+
+
+
+<!---------JavaScript for Toggle Menu--------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
+

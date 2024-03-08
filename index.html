@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environmental Monitoring Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/newlogo-removebg-preview.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times close-icon" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="data.html">AIR QUALITY DATA</a></li>
+                <li><a href="waterdata.html">WATER QUALITY DATA</a></li>
+                <li><a href="awareness.html">AWARENESS</a></li>
+                <li><a href="solutions.html">SOLUTIONS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars menu-icon" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>Environmental Quality Monitoring</h1>
+        <p>Monitoring air and water quality is crucial for understanding the environmental impact on our health and ecosystems. The Environmental Quality Index (EQI) provides insights into pollution levels and helps in implementing solutions to create a healthier environment.</p>
+        <a href="" class="hero-btn">Explore Our Data</a>
+    </div>
+</section>
+
+<hr>
+
+<!-- ---- Air Quality Data ---- -->
+
+<section class="aqi-section">
+    <h2>Air Quality Index (AQI) - November 2023</h2>
+    <table>
+        <tr>
+            <th>STATES</th>
+            <th>Status</th>
+            <th>AQI-US</th>
+            <th>Avg Temp</th>
+            <th>Humidity</th>
+        </tr>
+        <tr>
+            <td>State A</td>
+            <td>GOOD</td>
+            <td>42</td>
+            <td>25°C</td>
+            <td>50%</td>
+        </tr>
+        <tr>
+            <td>State B</td>
+            <td>MODERATE</td>
+            <td>68</td>
+            <td>30°C</td>
+            <td>60%</td>
+        </tr>
+        <tr>
+            <td>State C</td>
+            <td>UNHEALTHY</td>
+            <td>155</td>
+            <td>28°C</td>
+            <td>70%</td>
+        </tr>
+        
+        <tr>
+            <td>State A</td>
+            <td>GOOD</td>
+            <td>42</td>
+            <td>25°C</td>
+            <td>50%</td>
+        </tr>
+        <tr>
+            <td>State B</td>
+            <td>MODERATE</td>
+            <td>68</td>
+            <td>30°C</td>
+            <td>60%</td>
+        </tr>
+        <tr>
+            <td>State C</td>
+            <td>UNHEALTHY</td>
+            <td>155</td>
+            <td>28°C</td>
+            <td>70%</td>
+        </tr>
+        <tr>
+            <td>State D</td>
+            <td>GOOD</td>
+            <td>48</td>
+            <td>22°C</td>
+            <td>45%</td>
+        </tr>
+        <tr>
+            <td>State E</td>
+            <td>UNHEALTHY</td>
+            <td>165</td>
+            <td>32°C</td>
+            <td>55%</td>
+        </tr>
+      
+    </table>
+</section>
+
+<hr>
+
+<!-- ---- Water Quality Data ---- -->
+
+<section class="wqi-section">
+    <h2>Water Quality Index (WQI) - November 2023</h2>
+    <table>
+        <tr>
+            <th>REGIONS</th>
+            <th>Status</th>
+            <th>WQI</th>
+            <th>pH Level</th>
+            <th>Conductivity</th>
+        </tr>
+        <tr>
+            <td>River A</td>
+            <td>GOOD</td>
+            <td>72</td>
+            <td>7.2</td>
+            <td>300 μS/cm</td>
+        </tr>
+        <tr>
+            <td>Lake B</td>
+            <td>MODERATE</td>
+            <td>55</td>
+            <td>6.8</td>
+            <td>400 μS/cm</td>
+        </tr>
+        <tr>
+            <td>Pond C</td>
+            <td>POOR</td>
+            <td>40</td>
+            <td>6.0</td>
+            <td>500 μS/cm</td>
+        </tr>
+        <tr>
+            <td>River A</td>
+            <td>GOOD</td>
+            <td>72</td>
+            <td>7.2</td>
+            <td>300 μS/cm</td>
+        </tr>
+        <tr>
+            <td>Lake B</td>
+            <td>MODERATE</td>
+            <td>55</td>
+            <td>6.8</td>
+            <td>400 μS/cm</td>
+        </tr>
+        <tr>
+            <td>Pond C</td>
+            <td>POOR</td>
+            <td>40</td>
+            <td>6.0</td>
+            <td>500 μS/cm</td>
+        </tr>
+        <tr>
+            <td>Stream D</td>
+            <td>GOOD</td>
+            <td>68</td>
+            <td>7.5</td>
+            <td>350 μS/cm</td>
+        </tr>
+        <tr>
+            <td>Reservoir E</td>
+            <td>EXCELLENT</td>
+            <td>85</td>
+            <td>8.0</td>
+            <td>250 μS/cm</td>
+        </tr>
+      
+    </table>
+</section>
+
+<hr>
+
+
+
+<section class="environment-section">
+    <h2>Environmental Monitoring</h2>
+    <p>Monitoring various environmental factors is essential for sustainable development. Our network of sensors provides real-time data on factors such as temperature, humidity, air quality, and water quality to ensure a comprehensive understanding of the environment.</p>
+    
+    <div class="monitoring-data">
+        <div class="monitoring-col">
+            <h3>Temperature</h3>
+            <p>25°C</p>
+        </div>
+        <div class="monitoring-col">
+            <h3>Humidity</h3>
+            <p>60%</p>
+        </div>
+        <div class="monitoring-col">
+            <h3>Air Quality</h3>
+            <p>AQI: 60</p>
+        </div>
+        <div class="monitoring-col">
+            <h3>Water Quality</h3>
+            <p>WQI: 72</p>
+        </div>
+       
+    </div>
+
+    <a href="" class="hero-btn">Explore Monitoring Data</a>
+</section>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
