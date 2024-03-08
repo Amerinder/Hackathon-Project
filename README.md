@@ -23,7 +23,7 @@ Start --> Clone Repository --> Install Dependencies --> Configure Environment Va
         v
     Stop (End)
 
-##Usage
+**##Usage**
 Accessing the Dashboard
 
 - Open your web browser and navigate to https://github.com/Amerinder/Hackathon-Project.
